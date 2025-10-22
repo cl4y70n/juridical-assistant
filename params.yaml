@@ -1,0 +1,15 @@
+embedder:
+  model_name: sentence-transformers/all-mpnet-base-v2
+index:
+  dim: 768
+  top_k: 8
+llm:
+  base_model: facebook/llama-2-7b
+  lora:
+    r: 8
+    alpha: 16
+    dropout: 0.05
+train:
+  batch_size: 8
+  epochs: 3
+  lr: 2e-4

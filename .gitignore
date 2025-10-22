@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+venv/
+mlruns/
+.dvc/
+data/raw/
+data/processed/
+*.h5
+*.pt
+.ipynb_checkpoints/
+.DS_Store
